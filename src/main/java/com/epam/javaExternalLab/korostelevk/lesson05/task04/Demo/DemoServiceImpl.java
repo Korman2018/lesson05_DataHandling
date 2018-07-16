@@ -37,8 +37,8 @@ public class DemoServiceImpl implements DemoService {
     @Override
     public void removeIzhevskPrefixTests() {
         System.out.println("\nremoveIzhevskPrefix tests");
-        String phones = "+7(3412)33322233 adssd +7 (3412) 234234 8 (3412)4435 a+7  (3412) 3452342 _+73412 " +
-                "435358 +73412 4534345   83412 7553834123228  3412 4444";
+        String phones = "+7(3412)33322233 adssd +7 ( 3412) 123456 8 (3412)44-55-66 a+7  (3412) 3452342 _+73412 " +
+                "435358 +7-3412- 111-222   8-3412 7553834123228  3412 44-44-44  +7 (3412) 554433  8-3412-99-88-77";
         System.out.println("Source string: \n" + phones);
         System.out.println("Converted string \n" + removeIzhevskPrefix(phones));
     }
